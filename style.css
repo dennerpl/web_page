@@ -1,0 +1,19 @@
+body {
+    background-color: #3AD5B5
+}
+
+.autor {
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.foto-apresentacao {
+    background-image: url("./ressources/perfil.jpg");
+    background-size: cover;
+    background-position-y: 35%;
+    background-position-x: 70%;
+}
+
+.texto-apresentacao {
+    max-width: 50%;
+}
