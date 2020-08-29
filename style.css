@@ -1,10 +1,14 @@
 body {
+    margin-right: 0;
+    margin-left: 0;
     background-color: #3AD5B5
 }
 
 .autor {
-    margin-left: 25%;
-    margin-right: 25%;
+    text-align: center;
+    /* margin-left: 30%;
+    margin-right: 50%; */
+    font-family: cursive;
 }
 
 .foto-apresentacao {
@@ -12,8 +16,50 @@ body {
     background-size: cover;
     background-position-y: 35%;
     background-position-x: 70%;
+    padding-left: 30px;
+    font-weight: bolder;
+}
+
+button {
+    font-family: cursive;
+    background-color: #006FAB;
+    padding: 0.50em;
+}
+
+button a {
+    text-decoration: none;
+    color: black;
+    font-size: large;
+}
+
+button img {
+    height: 15px;
 }
 
 .texto-apresentacao {
     max-width: 50%;
+}
+
+.centralizar {
+    text-align: center;
+}
+
+img.centralizar {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.levitar {
+    display: inline-block;
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.habilidades {
+    width: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
