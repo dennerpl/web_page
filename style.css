@@ -57,9 +57,20 @@ img.centralizar {
     margin-left: auto;
 }
 
+.levitarProjetos {
+    display: inline-block;
+    position: relative;
+    margin-right: 80px;
+    margin-left: auto;
+}
+
 .habilidades {
     width: 60%;
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+.projectLink {
+    color: black;
 }
