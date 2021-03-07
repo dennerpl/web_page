@@ -12,7 +12,7 @@ body {
 }
 
 .foto-apresentacao {
-    background-image: url("./ressources/perfil.jpg");
+    background-image: url("./ressources/IMG_20191124_015519-removebg-preview-removebg-preview.png");
     background-size: cover;
     background-position-y: 35%;
     background-position-x: 70%;
@@ -38,10 +38,14 @@ button img {
 
 .texto-apresentacao {
     max-width: 50%;
+    font-size: larger;
+    font-weight: bolder;
 }
 
 .centralizar {
     text-align: center;
+    font-size: larger;
+    font-weight: bolder;
 }
 
 img.centralizar {
